@@ -5,8 +5,8 @@ import java.awt.*;
 
 public class AminowaneTlo extends JPanel {
     ImageIcon img;
-    Main m;
-    public AminowaneTlo(Main m){
+    Laczenie m;
+    public AminowaneTlo(Laczenie m){
         img = new ImageIcon("img.jpg");
         this.m = m;
     }

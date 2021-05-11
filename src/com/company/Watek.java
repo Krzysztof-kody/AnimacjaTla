@@ -1,9 +1,9 @@
 package com.company;
 
 public class Watek extends Thread{
-    Main m;
+    Laczenie m;
     AminowaneTlo t;
-    public Watek(Main m, AminowaneTlo t){
+    public Watek(Laczenie m, AminowaneTlo t){
         this.m = m;
         this.t = t;
     }

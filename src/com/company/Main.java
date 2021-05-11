@@ -5,10 +5,9 @@ import javax.swing.*;
 public class Main {
     public int dx = 0;
     public static void main(String[] args) {
-        Main m = new Main();
+        Laczenie m = new Laczenie();
         AminowaneTlo tlo = new AminowaneTlo(m);
         Watek w1 = new Watek(m, tlo);
-
 
         JFrame ramka = new JFrame("animowaneTlo");
         ramka.setBounds(200,200,200,200);
